@@ -1,0 +1,12 @@
+# Tested with Python 3.9 and torch==2.1.2 / torchvision==0.16.2 (CUDA 12.1).
+# Install torch/torchvision first; install the vendored CUDA extensions afterward.
+numpy==1.26.1
+Pillow==9.4.0
+plyfile==1.0.1
+tqdm==4.66.1
+scipy==1.11.3
+scikit-image==0.21.0
+imageio==2.31.4
+lpips==0.1.4
+tensorboardX==2.6.2.2
+ninja==1.11.1.1
