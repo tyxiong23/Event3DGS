@@ -52,7 +52,7 @@ Models are saved to `output/lego_single/point_cloud/iteration_N/point_cloud.ply`
 
 ### Progressive Training
 
-Run two rounds of 30,000 iterations each:
+Here is an example of running two rounds of progressive training with 30,000 iterations each:
 
 ```bash
 CUDA_VISIBLE_DEVICES=0 ROUNDS=2 ITERATIONS=30000 OPACITY_THRESHOLD=0.9 \
