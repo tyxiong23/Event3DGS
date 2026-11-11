@@ -2,7 +2,7 @@
 
 [Project page](https://tyxiong23.github.io/event3dgs/) · [Paper](https://arxiv.org/abs/2406.02972) · CoRL 2024
 
-Event3DGS is a framework for reconstructing high-fidelity 3D structure and appearance from event streams under high-speed camera egomotion. It combines the temporal resolution of event cameras with differentiable 3D Gaussian Splatting, event-based differential supervision, and progressive training. An optional appearance refinement stage incorporates a small number of motion-blurred RGB images while preserving the reconstructed geometry.
+Event3DGS leverages the high temporal resolution of event cameras to reconstruct high-fidelity 3D geometry and appearance under high-speed camera egomotion. It combines differentiable 3D Gaussian Splatting with event-based differential supervision, with progressive training to further enhance fine details. An optional appearance refinement stage incorporates a small number of motion-blurred RGB images while preserving the reconstructed geometry. Extensive experiments on synthetic and real-world datasets demonstrate that Event3DGS outperforms existing event-based dense 3D reconstruction methods.
 
 ![Event3DGS method overview](assets/method_event3dgs.png)
 
